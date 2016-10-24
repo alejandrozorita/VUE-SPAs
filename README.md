@@ -6,7 +6,7 @@ Desarrollo de una SPA usando VUE.JS
 
 Ejecutamos desde la consola:
 	npm install -g vue-cli
-	vue init webpack-simple asp
-	cd asp
+	vue init webpack spa
+	cd spa
 	npm install
 	npm run dev

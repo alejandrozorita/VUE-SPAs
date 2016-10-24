@@ -10,3 +10,7 @@ Ejecutamos desde la consola:
 	cd spa
 	npm install
 	npm run dev
+
+
+Despues instalamos 2 componenetes más que necesitaremos
+	npm install vue-resource vue-router --save

@@ -1,5 +1,5 @@
 <template>
-  <div id="wrapper">
+    <div id="app">
     <nav class="navbar navbar-default">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -14,7 +14,7 @@
     </nav>
     <div class="container">
       <div class="col-sm-3">
-
+      <hello></hello>
       </div>
       <div class="col-sm-9">
         <router-view></router-view>
@@ -27,7 +27,7 @@
 import Hello from './components/Hello'
 
 export default {
-  name: '#app',
+  name: 'app',
   components: {
     Hello
   }

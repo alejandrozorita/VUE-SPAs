@@ -12,6 +12,7 @@ Vue.use(VueRouter)
 
 const router = new VueRouter()
 
+console.log(router)
 // Pointing routes to the components they should use
 router.map({
   '/hello': {
